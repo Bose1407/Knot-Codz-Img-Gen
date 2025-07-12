@@ -1,6 +1,9 @@
 streamlit==1.32.0
 requests==2.31.0
 python-dotenv==1.0.1
-Pillow==10.3.0  # Updated version
-python-magic==0.4.27  # Reverted to original
+Pillow==10.3.0  # Updated from 10.2.0 for better compatibility
+python-magic==0.4.27
 streamlit-drawable-canvas==0.9.3
+numpy==1.26.4
+pandas==2.2.2
+matplotlib==3.9.1
